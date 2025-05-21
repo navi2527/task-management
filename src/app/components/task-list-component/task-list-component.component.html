@@ -1,0 +1,13 @@
+<!-- src/app/components/task-list/task-list.component.html -->
+<div *ngIf="tasks.length; else noTasks">
+    <ol>
+      <li *ngFor="let task of tasks" class="task-item">
+        {{ task }}
+        <button (click)="deleteTask(task)" class="delete">Remove</button>
+      </li>
+    </ol>
+  </div>
+  <ng-template #noTasks>
+    <p class="no-task">No Task</p>
+  </ng-template>
+

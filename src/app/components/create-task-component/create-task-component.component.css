@@ -1,0 +1,38 @@
+/* src/app/components/create-task/create-task.component.css */
+.todo-input {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  appearance: none;
+  border: none;
+  background-color: #f3f3f3;
+  margin-top: 15px;
+  font-size: 20px;
+  outline: none;
+}
+
+.todo-submit {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  background-color:#0a6d17;
+  color:#fff;
+  margin: 15px auto;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.todo-submit:hover {
+  background-color: #fe4880;
+  cursor: pointer;
+}
+.success-message {
+  color: green;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
